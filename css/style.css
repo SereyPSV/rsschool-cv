@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* background-image: url('../assets/img/image.jpg'); */
+.image {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgb(184, 184, 184)
+  }
+
+.logo {
+  width: 100px;
+}
+
