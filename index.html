@@ -7,35 +7,38 @@
     <title>Sergey Parshutsich CV</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./assets/img/pngegg.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com">  
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=>  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body class="body">
     <header class="header">
-        <div class="header-container">
+        <div class="container">
             <nav class="nav">
               <ul class="nav-list">          
-                <li>Contacts</li>
-                <li>Summary</li>
-                <li>Skills</li>          
-                <li>Code</li>
-                <li>Projects</li>
-                <li>Education</li>
-                <li>English</li>
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
               </ul>
             </nav>
         </div>        
     </header>
-    <main class="main">  
-        <div class="container">
-            <img src="./assets/img/Serg_JS.jpg" alt="my photo" class="image">
-            <h2>
-                Sergey Parshutsich
-            </h2>
-            <p>learning front-end developer</p>
-        </div>
-        <div class="container">
-            <h2>Contacts information:</h2>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section" id="profile">
+                <img class="img" src="./assets/img/Serg_JS.jpg" alt="my photo">
+            </section>
+            <section>
+                <h1 class="section-title">Sergey Parshutsich</h1>
+                <h3 class="section-title">Junior Front-End Developer</h3>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts information:</h2>
                 <ul>
                     <li>Minsk, Belarus</li>
                     <li>Phone: +375 (29) 670 91 91</li>
@@ -44,43 +47,49 @@
                     <li>Github: dereypsv</li>
                     <li>Telegram: @sergeyvalid</li>
               </ul>
-
-        </div>
-        <div class="container">
-            <h2>About me</h2>
-            <p>I'm 47 years old. I work as an engineer, I am engaged in repair and maintenance of computer equipment and peripherals.</p>
-            <p>I like to learn something new. I like to read, play sports. I like to work and see the results of my work. Since childhood, I have had a predisposition to computers.</p>
-            <p>I like to study and learn something new.</p>
-        </div>
-        <div class="container">
-            <h2>SKILLS</h2>
-            <ul>
-                <li>Web-development: HTML5, CSS3, JavaScript</li>
-                <li>Frameworks and libraries: Angular (in the process)</li>
-                <li>Version control: GIT, Github</li>
-                <li>English - А2 (Elementary)</li>
-            </ul>
-        </div>
-        <div class="container">
-            <h2>Code example</h2>
-        </div>
-        <div class="container">
-            <h2>My projects</h2>
-        </div>
-        <div class="container">
-            <h2>Education</h2>
-            <p>Brest State Technical University</p>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">About me</h2>
+                <p>I'm 47 years old. I work as an engineer, I am engaged in repair and maintenance of computer equipment and peripherals.</p>
+                <p>I like to learn something new. I like to read, play sports. I like to work and see the results of my work. Since childhood, I have had a predisposition to computers.</p>
+                <p>I like to study and learn something new.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>Web-development: HTML5, CSS3, JavaScript</li>
+                    <li>Frameworks and libraries: Angular (in the process)</li>
+                    <li>Version control: GIT, Github</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code example</h2>
+                <p>In the process</p>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">My projects</h2>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Brest State Technical University</p>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <p>English - А2 (Elementary)</p>
+            </section>
         </div>
     </main>
-    <footer class="footer">
+    <footer>
         <div class="footer">
-            <div>
-                © 2022 
-                <a href="https://github.com/sereypsv" class="github_link">sereypsv</a>
-            </div>
-            <div>
+            <section class="section">
+                <h2>© 2022 <a href="https://github.com/sereypsv" class="github_link">sereypsv</a></h2>
+            </section>
+            <section>
             <a href="https://rs.school/js/" class="rss"><img src="./assets/img/logo-rsschool3.png" alt="Logo RSC" class="logo"></a>
-            </div>
+             </section>
         </div>
     </footer>
 </body>
