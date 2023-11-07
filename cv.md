@@ -41,4 +41,4 @@ function mergeArrays(arr1, arr2) {
 ## **Languages**
 
 **Russian native**
-**English B1** _(intermediate)_
+**English B1** _(Intermediate)_
