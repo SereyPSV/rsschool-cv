@@ -37,6 +37,7 @@ function mergeArrays(arr1, arr2) {
 - Courses:
   - **[RS School _- stage 0_](https://rs.school/)**
   - **[Result School \*- trainings](https://result.school/)**
+  - **[Result School \*- Profession Junior Frontend Developer](https://result.school/)**
 
 ## **Languages**
 
