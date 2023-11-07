@@ -16,8 +16,8 @@ A personal profile, also known as a CV summary, is the opening statement of your
 
 ## **Skills**
 
+- **_JavaScript_React_**
 - **_HTML5, CSS3_**
-- **_JavaScript Basics_**
 - **_Git, GitHub_**
 - **_Visual Studio Code, Atom_**
 
